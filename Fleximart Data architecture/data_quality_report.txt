@@ -1,0 +1,4 @@
+FLEXIMART QUALITY REPORT - 2026-01-07
+Processed: Customers(25), Products(20), Sales(35)
+Duplicates Removed: {'customers': 1, 'products': 0, 'sales': 1}
+Missing Values: {'emails': 5, 'sales': 5}
