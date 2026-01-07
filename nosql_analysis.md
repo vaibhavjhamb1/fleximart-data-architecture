@@ -1,4 +1,5 @@
 Section A: Limitations of RDBMS
+
 While the current relational database is excellent for structured sales data, it struggles with the high variety of modern e-commerce product catalogs.
 
 Attribute Diversity: In an RDBMS, products like laptops (RAM, CPU) and shoes (size, color) require either many NULL columns or a complex "Entity-Attribute-Value" (EAV) model, which degrades performance.
@@ -8,6 +9,7 @@ Schema Rigidity: Adding a new product type, such as "Smart Home Devices," requir
 Nested Data: Storing customer reviews in an RDBMS requires a separate reviews table and expensive JOIN operations. This makes it difficult to retrieve a product and all its associated reviews in a single, fast operation.
 
 Section B: NoSQL Benefits 
+
 MongoDB provides a document-oriented approach that directly addresses the limitations of the relational model.
 
 Flexible Schema: MongoDB uses JSON-like documents (BSON), allowing each product to have its own unique set of fields without affecting other records. Laptops and shoes can coexist in the same collection with different attributes.
