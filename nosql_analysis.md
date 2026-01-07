@@ -18,5 +18,6 @@ Embedded Documents: Instead of a separate table, customer reviews can be stored 
 
 Horizontal Scalability: MongoDB is designed to scale out across multiple servers (sharding), making it easier to handle massive spikes in web traffic compared to the "scale-up" (vertical) approach of RDBMS.
 
-Section C: Trade-offs (2 Marks)
+Section C: Trade-offs 
+
 The transition to NoSQL involves certain trade-offs. MongoDB traditionally sacrifices strict ACID compliance (Atomicity, Consistency, Isolation, Durability) in favor of performance and availability. While relational databases ensure that data is perfectly consistent across all tables at all times, NoSQL often relies on Eventual Consistency. Furthermore, since data is often duplicated (denormalized) within documents to avoid joins, the storage requirements can be higher than a normalized MySQL database.
